@@ -45,10 +45,10 @@ bullet.velocityX=0;
 var damage=0.5*weight*speed1*speed1/(thickness*thickness*thickness);
 
 if(damage>10){
-  wall.shapeColor=("green");
+  wall.shapeColor=("red");
 }
 if(damage<10){
-  wall.shapeColor=("red");
+  wall.shapeColor=("green");
 }
 
 }
